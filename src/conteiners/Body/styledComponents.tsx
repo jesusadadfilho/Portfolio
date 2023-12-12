@@ -46,7 +46,7 @@ export const ExperiencesContainer = styled.div`
     flex-direction: column;
 `;
 
-export const ExpirienceTitle = styled.h1`
+export const PartTitle = styled.h1`
     font-size: 1.5rem;
     color: #fff;
     font-weight: 300;
@@ -93,6 +93,7 @@ export const ProjectsContainer = styled.div`
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
+    gap: 4rem;
 `;
 
 export const ProjectItem = styled.div`
@@ -100,6 +101,7 @@ export const ProjectItem = styled.div`
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: row;
+    gap: 1rem;
 `;
 
 export const ProjectContent = styled.div`
@@ -109,7 +111,7 @@ export const ProjectContent = styled.div`
     flex-direction: column;
 `;
 
-export const ProjectTitle = styled.h1`
+export const ProjectTitle = styled.div`
     font-size: 1.5rem;
     color: #fff;
     font-weight: 300;
